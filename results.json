@@ -1,0 +1,206 @@
+{
+  "runs": 3,
+  "repeats": 3000,
+  "cases": {
+    "Size 5 - Sorted": [
+      {
+        "algorithm": "Selection Sort",
+        "runs_us": [
+          2.05,
+          1.38,
+          1.46
+        ],
+        "avg_us": 1.63,
+        "comparisons": 10,
+        "swaps": 0,
+        "peak_bytes": 672
+      },
+      {
+        "algorithm": "Bubble Sort",
+        "runs_us": [
+          1.13,
+          0.7,
+          0.73
+        ],
+        "avg_us": 0.85,
+        "comparisons": 4,
+        "swaps": 0,
+        "peak_bytes": 672
+      },
+      {
+        "algorithm": "Quick Sort",
+        "runs_us": [
+          4.9,
+          3.4,
+          5.09
+        ],
+        "avg_us": 4.46,
+        "comparisons": 6,
+        "swaps": 6,
+        "peak_bytes": 1392
+      },
+      {
+        "algorithm": "Merge Sort",
+        "runs_us": [
+          5.07,
+          3.8,
+          3.95
+        ],
+        "avg_us": 4.27,
+        "comparisons": 5,
+        "swaps": 12,
+        "peak_bytes": 1512
+      }
+    ],
+    "Size 5 - Reverse Sorted": [
+      {
+        "algorithm": "Selection Sort",
+        "runs_us": [
+          2.3,
+          1.37,
+          1.49
+        ],
+        "avg_us": 1.72,
+        "comparisons": 10,
+        "swaps": 2,
+        "peak_bytes": 672
+      },
+      {
+        "algorithm": "Bubble Sort",
+        "runs_us": [
+          2.47,
+          1.62,
+          1.82
+        ],
+        "avg_us": 1.97,
+        "comparisons": 10,
+        "swaps": 10,
+        "peak_bytes": 672
+      },
+      {
+        "algorithm": "Quick Sort",
+        "runs_us": [
+          4.4,
+          3.83,
+          3.61
+        ],
+        "avg_us": 3.95,
+        "comparisons": 6,
+        "swaps": 8,
+        "peak_bytes": 1392
+      },
+      {
+        "algorithm": "Merge Sort",
+        "runs_us": [
+          4.96,
+          4.4,
+          4.3
+        ],
+        "avg_us": 4.55,
+        "comparisons": 7,
+        "swaps": 12,
+        "peak_bytes": 1512
+      }
+    ],
+    "Size 100 - Sorted": [
+      {
+        "algorithm": "Selection Sort",
+        "runs_us": [
+          354.75,
+          408.04,
+          495.0
+        ],
+        "avg_us": 419.26,
+        "comparisons": 4950,
+        "swaps": 0,
+        "peak_bytes": 1424
+      },
+      {
+        "algorithm": "Bubble Sort",
+        "runs_us": [
+          8.31,
+          8.9,
+          8.9
+        ],
+        "avg_us": 8.71,
+        "comparisons": 99,
+        "swaps": 0,
+        "peak_bytes": 1424
+      },
+      {
+        "algorithm": "Quick Sort",
+        "runs_us": [
+          71.46,
+          69.36,
+          66.64
+        ],
+        "avg_us": 69.15,
+        "comparisons": 480,
+        "swaps": 126,
+        "peak_bytes": 2144
+      },
+      {
+        "algorithm": "Merge Sort",
+        "runs_us": [
+          100.53,
+          87.21,
+          114.76
+        ],
+        "avg_us": 100.83,
+        "comparisons": 316,
+        "swaps": 672,
+        "peak_bytes": 4920
+      }
+    ],
+    "Size 100 - Reverse Sorted": [
+      {
+        "algorithm": "Selection Sort",
+        "runs_us": [
+          382.57,
+          378.24,
+          451.38
+        ],
+        "avg_us": 404.07,
+        "comparisons": 4950,
+        "swaps": 50,
+        "peak_bytes": 1424
+      },
+      {
+        "algorithm": "Bubble Sort",
+        "runs_us": [
+          608.67,
+          684.04,
+          720.9
+        ],
+        "avg_us": 671.21,
+        "comparisons": 4950,
+        "swaps": 4950,
+        "peak_bytes": 1424
+      },
+      {
+        "algorithm": "Quick Sort",
+        "runs_us": [
+          77.43,
+          72.79,
+          89.65
+        ],
+        "avg_us": 79.96,
+        "comparisons": 514,
+        "swaps": 302,
+        "peak_bytes": 2144
+      },
+      {
+        "algorithm": "Merge Sort",
+        "runs_us": [
+          132.68,
+          93.7,
+          109.75
+        ],
+        "avg_us": 112.04,
+        "comparisons": 356,
+        "swaps": 672,
+        "peak_bytes": 4920
+      }
+    ]
+  }
+}
